@@ -1,0 +1,51 @@
+body {
+  background-color: #FFF5EE;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+:root {
+  --primary: #FF6B35;
+  --secondary: #FFC947;
+  --dark: #2E2E2E;
+  --background: #FFF5EE;
+  --success: #28A745;
+}
+
+.navbar{
+    background-color: #2E2E2E;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.logo{
+   color: white;
+   
+}
+
+.half-logo{
+    color: #FFF5EE;
+   font-style: italic;
+}
+
+.link-1{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transform: translateX(300px);
+}
+
+.main-food-img{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-img{
+    border: 0.5px solid black;
+    height: 400px;
+    width: 700px;
+    border-radius: 100px;
+}
